@@ -4,12 +4,16 @@ import About from "./pages/About";
 import SignIn from "./pages/SignIn"
 import SignUp from "./pages/SignUp"
 import Profile from "./pages/Profile"
+import Navbar from "./components/Navbar";
 
 
 
 export default function App() {
   return (
-   <BrowserRouter>
+ <>
+ <BrowserRouter>
+ <Navbar/>
+
    <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
@@ -17,8 +21,8 @@ export default function App() {
     <Route path="/signIn" element={<SignIn/>}/>
     <Route path="/signUp" element={<SignUp/>}/>
    </Routes>
-   
-   
    </BrowserRouter>
+ 
+ </>
   )
 }
