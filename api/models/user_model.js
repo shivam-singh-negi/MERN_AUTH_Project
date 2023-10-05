@@ -15,6 +15,11 @@ const userSchema= new mongoose.Schema({
         type:String,
         required:true,
     }
+    ,
+    profilePicture:{
+        type:String,
+        default:"https://img.favpng.com/3/19/22/computer-icons-person-png-favpng-LCdUmsY83twN3VK0xYeuXREBP.jpg",
+    }
 },{timestamps:true});
 
 const User=mongoose.model("User",userSchema);
