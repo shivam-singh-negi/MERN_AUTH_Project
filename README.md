@@ -1,4 +1,6 @@
 # MERN_AUTH_Project
-Auth in MERN
+Auth App using MERN Stack
 Deployed link-
-app-auth-52m1.onrender.com
+https://app-auth-52m1.onrender.com/
+
+User can Login Register using Email or Gmail id
